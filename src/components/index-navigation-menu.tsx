@@ -33,11 +33,11 @@ function IndexNavigationMenu() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem> */}
-        {/* <NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <a href="#">#</a>
+            <a href="#">实验室概况</a>
           </NavigationMenuLink>
-        </NavigationMenuItem> */}
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   )
