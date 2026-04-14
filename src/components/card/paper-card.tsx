@@ -26,7 +26,9 @@ function PaperCard({ paper }: Props) {
         <CardTitle>{paper.title}</CardTitle>
         <CardDescription dangerouslySetInnerHTML={{ __html: paper.author }} />
         <CardAction>
-          <Badge className="text-md">{paper.ranking}</Badge>
+          {paper.ranking != "" && (
+            <Badge className="text-md">{paper.ranking}</Badge>
+          )}
         </CardAction>
       </CardHeader>
       <CardFooter>

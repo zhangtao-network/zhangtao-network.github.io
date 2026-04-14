@@ -196,7 +196,7 @@ const papers = [
     title: "Achieving fast page load for websites across multiple domains",
     author:
       "Jiawei Huang, Haitao Zhu, Mingyue Liu, <b>Tao Zhang</b>, and Jianxin Wang",
-    ranking: "CCF A类",
+    ranking: "",
     venue:
       "Transactions on Emerging Telecommunications Technologies (TETT), 2022-01-05, 33(5).",
   },
