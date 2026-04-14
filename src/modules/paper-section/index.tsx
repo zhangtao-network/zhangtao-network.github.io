@@ -1,6 +1,8 @@
 import { PaperCard } from "@/components/card/paper-card"
 import { papers } from "@/data/paper"
 
+papers.sort((a, b) => a.seq - b.seq)
+
 function PaperSection() {
   return (
     <div>

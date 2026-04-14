@@ -11,6 +11,7 @@ import { Badge } from "@/components/ui/badge"
 
 interface Props {
   paper: {
+    seq: number
     title: string
     author: string
     ranking: string

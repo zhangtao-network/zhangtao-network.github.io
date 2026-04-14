@@ -1,5 +1,6 @@
 const papers = [
   {
+    seq: 2,
     title:
       "R³: A Building Block for Disordering-Tolerant Load Balancing in Data Center Networks",
     author:
@@ -9,6 +10,7 @@ const papers = [
       "IEEE Transactions on Services Computing (TSC), 2025, 18 (5): 3106-3122.",
   },
   {
+    seq: 5,
     title:
       "Taming the Competitiveness of Heterogeneous TCP Traffic in Data Center Networks",
     author:
@@ -17,6 +19,7 @@ const papers = [
     venue: "IEEE/ACM Transactions on Networking (ToN), 2024, 32(3): 2253-2268.",
   },
   {
+    seq: 15,
     title: "Rethinking Fast and Friendly Transport in Data Center Networks",
     author:
       "<b>Tao Zhang</b>, Jiawei Huang, Kai Chen, Jianxin Wang, Jianer Chen, Yi Pan and Geyong Min.",
@@ -24,6 +27,7 @@ const papers = [
     venue: "IEEE/ACM Transactions on Networking (ToN), 2020, 28(5): 2364-2377.",
   },
   {
+    seq: 20,
     title:
       "Tuning the Aggressive TCP Behavior for Highly Concurrent HTTP Connections in Intra-Datacenter",
     author:
@@ -32,6 +36,7 @@ const papers = [
     venue: "IEEE/ACM Transactions on Networking (ToN), 2017, 25(6): 3808-3822.",
   },
   {
+    seq: 22,
     title: "Adaptive-acceleration data center TCP",
     author:
       "<b>Tao Zhang</b>, Jianxin Wang, Jiawei Huang, Yi Huang, Jianer Chen, Yi Pan",
@@ -39,6 +44,7 @@ const papers = [
     venue: "IEEE Transactions on Computers (TC), 2015, 64(6): 1522-1533.",
   },
   {
+    seq: 4,
     title:
       "Progress-Aware Transmission Protocol for Efficient In-Network Aggregation in Distributed Machine Learning",
     author:
@@ -47,6 +53,7 @@ const papers = [
     venue: "IEEE Transactions on Networking (TON), 2025, 33(6): 2897-2912.",
   },
   {
+    seq: 1,
     title:
       "Toward QoE-Fairness for Video Streaming Over Heterogeneous Networks: An Innovative Bandwidth Allocation Mechanism",
     author:
@@ -55,6 +62,7 @@ const papers = [
     venue: "IEEE Transactions on Networking (TON), 2026, 34: 2103-2118.",
   },
   {
+    seq: 7,
     title:
       "Straggler-Aware Gradient Aggregation for Large-Scale Distributed Deep Learning System",
     author:
@@ -63,6 +71,7 @@ const papers = [
     venue: "IEEE/ACM Transactions on Networking (ToN), 2024, 32(6): 4917-4930.",
   },
   {
+    seq: 9,
     title:
       "PA-ATP: Progress-Aware Transmission Protocol for In-Network Aggregation",
     author:
@@ -72,6 +81,7 @@ const papers = [
       "IEEE 31st International Conference on Network Protocols (ICNP), 20 December 2023.",
   },
   {
+    seq: 10,
     title:
       "REN: Receiver-driven Congestion Control using Explicit Notification for Data Center",
     author:
@@ -81,6 +91,7 @@ const papers = [
       "IEEE Transactions on Cloud Computing (TCC), 2023, 11(2): 1381-1394.",
   },
   {
+    seq: 19,
     title:
       "Designing Fast and Friendly TCP to Fit High Speed Data Center Networks",
     author:
@@ -90,6 +101,7 @@ const papers = [
       "IEEE 38th International Conference on Distributed Computing Systems (ICDCS), 2018, pp. 43-53.",
   },
   {
+    seq: 21,
     title:
       "Tuning the Aggressive TCP Behavior for Highly Concurrent HTTP Connections in Data Center",
     author:
@@ -99,6 +111,7 @@ const papers = [
       "IEEE 36th International Conference on Distributed Computing Systems (ICDCS)",
   },
   {
+    seq: 8,
     title:
       "Achieving QoE Fairness in Video Streaming over Heterogeneous Congestion Control Protocols",
     author:
@@ -108,6 +121,7 @@ const papers = [
       "IEEE/ACM 32nd International Symposium on Quality of Service (IWQoS), 2024.",
   },
   {
+    seq: 14,
     title: "GTCP: Hybrid congestion control for cross-datacenter networks",
     author:
       "Shaojun Zou, Jiawei Huang, Jingling Liu, <b>Tao zhang</b>, Ning Jiang and Jianxin Wang.",
@@ -116,6 +130,7 @@ const papers = [
       "IEEE 41st International Conference on Distributed Computing Systems (ICDCS)",
   },
   {
+    seq: 16,
     title:
       "Polo: Receiver-Driven Congestion Control for Low Latency over Commodity Network Fabric",
     author: "Chang Ruan, Jianxin Wang, Wanchun Jiang, <b>Tao zhang</b>.",
@@ -124,6 +139,7 @@ const papers = [
       "ACM 49th International Conference on Parallel Processing (ICPP), 2020, pp. 1-10.",
   },
   {
+    seq: 11,
     title: "Opportunistic Transmission for Video Streaming over Wild Internet",
     author:
       "Jiawei Huang, Qichen Su, Weihe Li, Zhuoran Liu, <b>Tao Zhang</b>, Sen Liu, Ping Zhong, Wanchun Jiang, and Jianxin Wang.",
@@ -132,6 +148,7 @@ const papers = [
       "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMCCAP), 2023, 18(3):1-22.",
   },
   {
+    seq: 18,
     title: "DDT: Mitigating the competitiveness difference of data center TCPs",
     author:
       "<b>Tao Zhang</b>, Jiawei Huang, Shaojun Zou, Sen Liu, Jinbin Hu, Jingling Liu, Chang Ruan, and Jianxin Wang",
@@ -139,6 +156,7 @@ const papers = [
     venue: "ACM 3rd Asia-Pacific Workshop on Networking (APNet), 2019:8-14.",
   },
   {
+    seq: 3,
     title:
       "Mitigating Hash Polarization with Flow-Level Load Balancing in Leaf-Spine Data Center Network",
     author:
@@ -147,6 +165,7 @@ const papers = [
     venue: "ICA3PP, 2025.（Outstanding Paper Award）",
   },
   {
+    seq: 6,
     title:
       "HG: Leveraging Hybrid Switching Granularity to Balance Heterogeneous Data Center Traffic Load for Cloud-based Industrial Applications",
     author:
@@ -156,12 +175,14 @@ const papers = [
       "IEEE Transactions on Industrial Informatics (TII), 2024, 20(6): 8416-8427.",
   },
   {
+    seq: 17,
     title: "基于距离测量和位置指纹的室内定位方法研究",
     author: "李方敏, <b>张韬</b>, 刘凯, 刘果, 马小林",
     ranking: "CCF T1",
     venue: "计算机学报, 2019, 42(2): 339-350.",
   },
   {
+    seq: 12,
     title:
       "Towards Communication-efficient Digital Twin via AI-powered Transmission and Reconstruction",
     author:
@@ -171,6 +192,7 @@ const papers = [
       "IEEE Journal on Selected Areas in Communications (JSAC), 2023, 41(11): 3624-3635.",
   },
   {
+    seq: 13,
     title: "Achieving fast page load for websites across multiple domains",
     author:
       "Jiawei Huang, Haitao Zhu, Mingyue Liu, <b>Tao Zhang</b>, and Jianxin Wang",
