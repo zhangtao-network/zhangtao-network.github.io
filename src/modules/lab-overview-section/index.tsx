@@ -1,8 +1,8 @@
 function LabOverviewSection() {
   return (
     <div>
-      <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
-        🏠 实验室概况
+      <h3 id="lab" className="scroll-m-20 text-2xl font-semibold tracking-tight">
+        🏠 课题组简介
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         本人所在研究团队依托长沙学院计算机科学与工程学院，拥有湖南省工业互联网技术与安全重点实验室、

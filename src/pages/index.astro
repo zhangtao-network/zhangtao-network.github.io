@@ -2,15 +2,21 @@
 import Layout from "@/layouts/main.astro"
 import { ResumeSection } from "@/modules/resume-section"
 import { Separator } from "@/components/ui/separator"
-import { AwardSection } from "@/modules/award-section"
+import { AwardSection } from "@/modules/award-project-section"
 import { PaperSection } from "@/modules/paper-section"
 import { LabOverviewSection } from "@/modules/lab-overview-section"
 import { StudentTrainingSection } from "@/modules/student-training-section"
 import { Footer } from "@/modules/footer"
+import { ResearchProjectSection } from "@/modules/research-project-section"
+import { Welcome } from "@/components/welcome"
 ---
 
 <Layout>
   <div class="mx-auto w-full max-w-5xl px-4">
+    <div class="my-4">
+      <Welcome />
+    </div>
+
     <div class="py-8">
       <ResumeSection />
     </div>
@@ -24,13 +30,19 @@ import { Footer } from "@/modules/footer"
     <Separator className="my-8" />
 
     <div>
-      <AwardSection />
+      <PaperSection />
     </div>
 
     <Separator className="my-8" />
 
     <div>
-      <PaperSection />
+      <ResearchProjectSection />
+    </div>
+
+    <Separator className="my-8" />
+
+    <div>
+      <AwardSection />
     </div>
 
     <Separator className="my-8" />

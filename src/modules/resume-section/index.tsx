@@ -4,24 +4,16 @@ const profile = {
   name: "张韬",
   role: "长沙学院 - 计算机科学与工程学院",
   desc: `
-    张韬，工学博士，校聘教授，硕士生导师，湖南省优博。
-    长期从事计算机网络协议和算法优化领域的研究和教学工作，
-    主持且完成国家自然科学基金面上项目1项。
-    目前已在中国计算机学会（China Computer Federation, CCF）推荐的权威学术期刊和著名学术会议发表多篇论文，
-    具体期刊和会议包括：《IEEE/ACM Transactions on Networking》、《IEEE Transactions on Computers》、
-    《ACM Transactions on Multimedia Computing, Communications, and Applications》、
-    《IEEE Transactions on Cloud Computing》、《Journal of Network and Computer Applications》、
-    《Future Generation Computer Systems》、《IEEE Internet of Things Journal》、
-    《Transactions on Emerging Telecommunications Technologies》、《计算机学报》、
-    IEEE ICDCS、ACM ICPP、APNet 等。目前已授权国家发明专利5项（转让金额共计达到60万元），于2020年获评湖南省科技进步三等奖，
-    其博士毕业论文于 2019年获评湖南省优秀博士学位论文。已取得的相关研究成果涉及延时敏感应用传输优化、HTTP 并发传输优化、
-    多协议共存传输优化、多路径传输优化、网页快速加载及视频流传输优化等领域。
+    张韬，工学博士，副教授，硕士生导师，湖南省优博。长期从事计算机网络协议及算法优化领域的研究工作，
+    尤其在数据中心网络传输、负载均衡、分布式机器学习训练加速、视频传输等方面取得了一些积累。
+    目前已在中国计算机学会（China Computer Federation, CCF）推荐的权威学术期刊和著名学术会议发表论文30余篇，
+    已授权多项国家发明专利（转让金额达60万元），获评湖南省科技进步三等奖。
   `,
   desc2: `
-    学术兼职：目前担任国际权威期刊《IEEE Journal on Selected Areas in Communications》、
+    学术兼职：目前担任国际权威期刊《IEEE Journal on Selected Areas in Communications》、 
     《IEEE/ACM Transactions on Networking》、《IEEE Transactions on Computers》、
-    《Journal of Parallel and Distributed Computing》、《IEEE Internet of Things Journal》、
-    《Future Generation Computer Systems》、《Journal of Network and Computer Applications》的审稿人。
+    《IEEE Transactions Cloud Computing》、《IEEE Transactions on Network and Service Management》、
+    《IEEE Internet of Things Journal》等的审稿人。
   `,
 }
 
