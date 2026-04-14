@@ -4,7 +4,7 @@ const papers = [
     title:
       "R³: A Building Block for Disordering-Tolerant Load Balancing in Data Center Networks",
     author:
-      "<b>Tao Zhang</b>, Yuchen Wang, Yuanzhen Hu, Jinbin Hu, Haotian Jing, and Yangfan Li.",
+      "<b>Tao Zhang</b>, Yuchen Wang(本科), Yuanzhen Hu, Jinbin Hu, Haotian Jing(本科), and Yangfan Li.",
     ranking: "CCF A类",
     venue:
       "IEEE Transactions on Services Computing (TSC), 2025, 18 (5): 3106-3122.",
@@ -160,7 +160,7 @@ const papers = [
     title:
       "Mitigating Hash Polarization with Flow-Level Load Balancing in Leaf-Spine Data Center Network",
     author:
-      "Siyuna Fan, Ao Zhang, Hui Yu, <b>Tao Zhang</b>, Linfei Dong, Xidao Luan, and Hui Yin.",
+      "Siyuna Fan(本科), Ao Zhang(硕士), Hui Yu(硕士), <b>Tao Zhang</b>, Linfei Dong(硕士), Xidao Luan, and Hui Yin.",
     ranking: "CCF C类",
     venue: "ICA3PP, 2025.（Outstanding Paper Award）",
   },
