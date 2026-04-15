@@ -9,7 +9,7 @@ function AwardSection() {
       </h3>
       <div className="grid grid-cols-1 items-start gap-4 md:grid-cols-2">
         {awardedProjects.map((project) => {
-          return <AwardCard project={project} />
+          return <AwardCard key={project.title} project={project} />
         })}
       </div>
     </div>

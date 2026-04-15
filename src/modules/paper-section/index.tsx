@@ -11,7 +11,7 @@ function PaperSection() {
       </h3>
       <div className="grid grid-cols-1 items-start gap-4">
         {papers.map((paper) => {
-          return <PaperCard paper={paper} />
+          return <PaperCard key={paper.title} paper={paper} />
         })}
       </div>
     </div>

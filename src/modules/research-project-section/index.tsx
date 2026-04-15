@@ -9,7 +9,7 @@ function ResearchProjectSection() {
       </h3>
       <div className="grid grid-cols-1 items-start gap-4 md:grid-cols-2">
         {ResearchProjects.map((project) => (
-          <ResearchProjectCard project={project} />
+          <ResearchProjectCard key={project.projectTitle} project={project} />
         ))}
       </div>
     </div>

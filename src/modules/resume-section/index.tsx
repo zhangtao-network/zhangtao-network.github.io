@@ -1,5 +1,7 @@
 import { Mail } from "lucide-react"
 
+import Avatar from "@/assert/avatar.png"
+
 const profile = {
   name: "张韬",
   role: "长沙学院 - 计算机科学与工程学院",
@@ -31,11 +33,13 @@ function ResumeSection() {
               {profile.role}
             </h4>
           </div>
-          <img
-            src="https://jsxy.ccsu.cn/virtual_attach_file.vsb?afc=4oRG8bM8CZnl-DMilQ2nRLaUmQRMRLD4LmUYoR9ZU8liMzG0gihFp2hmCIa0UYysLSy8n1ysozrfMNU8nNCaUNCYnR94UzNaozNPU4MRUzfFU4WRnNnfozTFLlrVoRvJv2bjo4OeoDXK_dN0qIbtpYyPLmUPg4-PLR-8gtA8pUscc&oid=2113742405&tid=1241&nid=21024&e=.png"
-            alt="Profile"
-            className="float-right h-auto w-42 object-cover p-4"
-          />
+          <div className="float-right m-4 overflow-hidden rounded-md">
+            <img
+              src={Avatar.src}
+              alt="Profile"
+              className="h-auto w-42 object-cover"
+            />
+          </div>
           <p className="leading-7 [&:not(:first-child)]:mt-6">{profile.desc}</p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             {profile.desc2}
