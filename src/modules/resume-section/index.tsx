@@ -37,7 +37,7 @@ function ResumeSection() {
             <img
               src={Avatar.src}
               alt="Profile"
-              className="h-auto w-42 object-cover"
+              className="h-auto w-32 object-cover md:w-40"
             />
           </div>
           <p className="leading-7 [&:not(:first-child)]:mt-6">{profile.desc}</p>
