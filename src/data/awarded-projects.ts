@@ -13,7 +13,7 @@ const awardedProjects = [
     title:
       "Mitigating Hash Polarization with Flow-Level Load Balancing in Leaf-Spine Data Center Network",
     description:
-      "Siyuan Fan(本科), Ao Zhang(硕士), Hui Yu(硕士), <b>Tao Zhang</b>, Linfei Dong(本科), Xidao Luan, and Hui Yin",
+      "Siyuan Fan(本科), Ao Zhang(硕士), Hui Yu(硕士), <b>Tao Zhang*</b>, Linfei Dong(本科), Xidao Luan, and Hui Yin",
     award: "ICA3PP Outstanding Paper Award (ICA3PP优秀论文奖)",
   },
 ]

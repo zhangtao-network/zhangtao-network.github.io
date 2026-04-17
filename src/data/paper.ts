@@ -105,7 +105,7 @@ const papers = [
     title:
       "Tuning the Aggressive TCP Behavior for Highly Concurrent HTTP Connections in Data Center",
     author:
-      "Jiawei Huang, Jianxin Wang, <b>Tao Zhang</b>, Jianer Chen, Yi Pan.",
+      "Jiawei Huang, Jianxin Wang, <b>Tao Zhang*</b>, Jianer Chen, Yi Pan.",
     ranking: "CCF B类",
     venue:
       "IEEE 36th International Conference on Distributed Computing Systems (ICDCS)",
@@ -160,7 +160,7 @@ const papers = [
     title:
       "Mitigating Hash Polarization with Flow-Level Load Balancing in Leaf-Spine Data Center Network",
     author:
-      "Siyuna Fan(本科), Ao Zhang(硕士), Hui Yu(硕士), <b>Tao Zhang</b>, Linfei Dong(硕士), Xidao Luan, and Hui Yin.",
+      "Siyuna Fan(本科), Ao Zhang(硕士), Hui Yu(硕士), <b>Tao Zhang*</b>, Linfei Dong(硕士), Xidao Luan, and Hui Yin.",
     ranking: "CCF C类",
     venue: "ICA3PP, 2025.（Outstanding Paper Award）",
   },
@@ -177,7 +177,7 @@ const papers = [
   {
     seq: 17,
     title: "基于距离测量和位置指纹的室内定位方法研究",
-    author: "李方敏, <b>张韬</b>, 刘凯, 刘果, 马小林",
+    author: "李方敏, <b>张韬*</b>, 刘凯, 刘果, 马小林",
     ranking: "CCF T1",
     venue: "计算机学报, 2019, 42(2): 339-350.",
   },
@@ -195,7 +195,7 @@ const papers = [
     seq: 13,
     title: "Achieving fast page load for websites across multiple domains",
     author:
-      "Jiawei Huang, Haitao Zhu, Mingyue Liu, <b>Tao Zhang</b>, and Jianxin Wang",
+      "Jiawei Huang, Haitao Zhu, Mingyue Liu, <b>Tao Zhang*</b>, and Jianxin Wang",
     ranking: "",
     venue:
       "Transactions on Emerging Telecommunications Technologies (TETT), 2022-01-05, 33(5).",
