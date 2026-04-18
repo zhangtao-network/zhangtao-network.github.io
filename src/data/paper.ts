@@ -160,7 +160,7 @@ const papers = [
     title:
       "Mitigating Hash Polarization with Flow-Level Load Balancing in Leaf-Spine Data Center Network",
     author:
-      "Siyuna Fan(本科), Ao Zhang(硕士), Hui Yu(硕士), <b>Tao Zhang*</b>, Linfei Dong(硕士), Xidao Luan, and Hui Yin.",
+      "Siyuna Fan(本科), Ao Zhang(硕士), Hui Yu(硕士), <b>Tao Zhang*</b>, Linfei Dong(本科), Xidao Luan, and Hui Yin.",
     ranking: "CCF C类",
     venue: "ICA3PP, 2025.（Outstanding Paper Award）",
   },
